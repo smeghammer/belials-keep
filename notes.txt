@@ -1,1 +1,4 @@
 NOTES:
+
+ - Make a slaughtermap area that eventually exposes a switch to raise the 3D sector thtat allows access to the exit.
+ - make it a sort of prison/cave maze thing that sequentially releases imps, cacos etc. into a central arena...
