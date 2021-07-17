@@ -11,14 +11,21 @@ script 100 ENTER{
 	}
 	
 	/* lower start support */
-	log(s:"lower start platform:");
 	Floor_LowerInstant(16,0,49);
+	Floor_LowerInstant(90,0,19);
 	
-
+	/* set top of ring 3 stair fence to blocking */
+	Acs_Execute(2,0,5,1);	/* set top of fence blocking */
 	
 }
 
-script 1(int floorIndex, int lineIndex){
-	
+/* block or unblock specified line: */
+script 2 (int lineId, int blockingStatus){
+	if(blockingStatus == 1){
+		Line_SetBlocking(lineId,32,0);
+	}
+	else{
+		Line_SetBlocking(lineId,0,32);
+	}
 }
 

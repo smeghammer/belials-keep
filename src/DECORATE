@@ -11,3 +11,4 @@
 #include "Actors/CyberBaron/DECORATE.txt"
 #include "Actors/BruiserDemon/DECORATE.txt"
 #include "Actors/Flames/DECORATE.txt"
+#include "Actors/FlamerBaron/DECORATE"
