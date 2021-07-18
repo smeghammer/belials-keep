@@ -68,7 +68,8 @@ TAG			Sector(s)			Thing(s)
 44		l3 stair
 45		?? l3 stair
 46		l3 stair
-
+47		l3 near steps rocks
+48		l3 outside of platfporm
 			
 50			
 51			
