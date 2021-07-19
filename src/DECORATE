@@ -12,3 +12,5 @@
 #include "Actors/BruiserDemon/DECORATE.txt"
 #include "Actors/Flames/DECORATE.txt"
 #include "Actors/FlamerBaron/DECORATE"
+#include "Actors/squire/DECORATE"
+#include "Actors/Steam/DECORATE"

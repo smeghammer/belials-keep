@@ -26,7 +26,7 @@ thinggroup y 66C "Environmental"
 #
 # DOOM/DOOM2:
 thing 3125 q - 60 RSPIB1E1   "Rail Arachnotron"
-thing 3333 q - 20 BRUSA1   "Bruiser Demon"
+thing 3333 q - 30 BRUSA1   "Bruiser Demon"
 thing 9656 q - 8 RATAC2C8   "Small Rat"
 thing 10000 q - 20 CBOSA1   "Cyber Baron"
 thing 10001 y - 40 FLMSML   "Fire (small)"
@@ -42,6 +42,7 @@ thing 15011 y - 40 PLANB0   "Garden tree 2"
 thing 15012 y - 40 PLANC0   "Garden bush 1"
 thing 15013 y - 40 PLAND0   "Garden bush 2"
 thing 15014 y - 40 PLANE0   "Garden bush 3"
+thing 15900 y - 10 STEMA0   "Steam"
 
 thing 15500 q - 16 FSZKA1   "Female Scientist"
 thing 15501 q - 16 FSZWE1   "Female Scientist 2"
@@ -50,6 +51,7 @@ thing 15502 q - 16 SCZHE1   "Zombie Scientist 3"
 thing 30124 q - 20 DPOSE1   "Double Chaingunner"
 thing 31004 q - 40 FLBRNE1  "Flamer Baron"
 thing 31497 q - 20 FLMZE1   "Flamer Zombie"
+thing 9403  q - 30 BOS6C1   "Squire"
 
 
 

@@ -75,10 +75,19 @@ TAG			Sector(s)			Thing(s)
 51			
 			
 60			
+61		raise final exit block
+62		raise exit from ring back to island
+63		floorlight for key stairs
+64		portal		
+
 
 65			
 66			
-			
+67		portal				
+
+68		horizontal escape pipe
+69		horizontal escape pipe
+
 70			
 71			
 72			
@@ -95,7 +104,20 @@ TAG			Sector(s)			Thing(s)
 
 
 
+LINE IDs:
+---------
 
+10		horizon for top blood lake secret
+
+
+ - baron support doesn't lower		OK
+ - lava doesn't hurt under floor	
+	- need suit nearby...
+ - monsters in island
+ - monste closets on returning to exit?
+
+ - do line_setblocking logic for secret tummel at top of lava lake
+ - also, do line_horizon switch on crossing a line...
 
 
 

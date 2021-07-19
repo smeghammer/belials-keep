@@ -60,4 +60,14 @@ $Limit SFX/FireStart	0
 $Limit SFX/FireLoop	0
 $Limit SFX/FireDie	0
 
+//squire
+squire/sight DSSQRSIT
+squire/death DSSQRDTH
+
+fireball/fire dsfirmfi
+fireball/hit dsfirex3
+
+//Steam
+Steam/Loop	STEMLOOP
+Steam/Fire	STEMFIRE
 
