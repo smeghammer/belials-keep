@@ -107,21 +107,39 @@ TAG			Sector(s)			Thing(s)
 LINE IDs:
 ---------
 
-10		horizon for top blood lake secret
+10		horizon for top blood lake secret									NOT USED
 
 
- - baron support doesn't lower		OK
- - lava doesn't hurt under floor	
-	- need suit nearby...
- - monsters in island
- - monste closets on returning to exit?
 
- - do line_setblocking logic for secret tummel at top of lava lake
+
+ - baron support doesn't lower												OK
+ - lava doesn't hurt under floor											OK
+	- need suit nearby...													OK
+	
+
+
+ - do line_setblocking logic for secret tunnel at top of lava lake			OK, reworked.
  - also, do line_horizon switch on crossing a line...
 
 
+TODO:
+-----
+ - debug sector portal in pipe (probably mismatched args)					OK (no ceiling flat...)
+ - 3rd ring steps - retexture the pillar									OK
+ - 3rd ring: south east inner lava cannot get out							OK
+ - circle 4 switch doesn't work?											Actually, it does.
+ - l4 - move fire away from doors											OK
+ - put another rad suit in last room										OK
+ - 3rd ring lava - add flowing to flats, speed up textures					
 
-
-
-
-
+ - monsters in island														OK - embellish?
+ - monster closets on returning to exit?
+ - make secret pipe narrow at end?
+ - check access to all skull tunnels:
+		counting r to l
+		5 (top step too high)
+		9 (can't get out top - move steps back a bit)
+ 
+ 
+ - blood metal texture on remotely opened barriers							OK new texture!!
+ 

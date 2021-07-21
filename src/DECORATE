@@ -14,3 +14,4 @@
 #include "Actors/FlamerBaron/DECORATE"
 #include "Actors/squire/DECORATE"
 #include "Actors/Steam/DECORATE"
+#include "Actors/BloodSkull/DECORATE.txt"

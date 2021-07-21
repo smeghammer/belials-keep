@@ -22,8 +22,9 @@ script 100 ENTER{
 
 /* raise exit block */
 script 1 (void){
-	Ceiling_RaiseByValue(61,12,128);
-	Floor_RaiseByValue(61,12,128);
+	print(s:"The exit can now be reached.");
+	Ceiling_RaiseByValue(61,12,64);
+	Floor_RaiseByValue(61,12,64);
 }
 
 /* block or unblock specified line: */
