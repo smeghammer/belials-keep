@@ -25,6 +25,8 @@ script 1 (void){
 	print(s:"The exit can now be reached.");
 	Ceiling_RaiseByValue(61,12,64);
 	Floor_RaiseByValue(61,12,64);
+	
+	/* open the moster closets and weapons cache!! */
 }
 
 /* block or unblock specified line: */

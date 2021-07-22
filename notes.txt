@@ -70,17 +70,20 @@ TAG			Sector(s)			Thing(s)
 46		l3 stair
 47		l3 near steps rocks
 48		l3 outside of platfporm
-			
+49		island prison block - floor/ceiling		
 50			
 51			
-			
+52		island prison block - walls, full height
+53		island prison block - walls, half height (windows)
+54		island prison block - door and door roof
+55		island prison block - floor	
+56		island prison block - ceiling	
+		
 60			
 61		raise final exit block
 62		raise exit from ring back to island
 63		floorlight for key stairs
 64		portal		
-
-
 65			
 66			
 67		portal				
@@ -142,4 +145,10 @@ TODO:
  
  
  - blood metal texture on remotely opened barriers							OK new texture!!
+ 
+ 
+ RECOVERY:
+ ---------
+ 
+ 
  
