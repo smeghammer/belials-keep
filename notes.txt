@@ -198,5 +198,6 @@ transfer floorlight:
 
 block bruiser demon from teleporting!
 
+bruiser teleport to exit plat as well!
 
 Add TITLEPIC
