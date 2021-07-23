@@ -187,8 +187,16 @@ EXIT SEQUENCE:
 11:		hopefully you noticed the exit teleport...
 
 TODO!:
-fix exit 3D floor (look at backup)
- - this seems to be an actual bug.
+fix exit 3D floor (look at backup)							OK
+ - this seems to be an actual bug.					
  57 is actually the CONTROL sector!!!!!
 
 sneaky exit from broken section goes up too far
+
+transfer floorlight:
+27, 28, 34, 37, 38, 39, 41, 42, 44, 47, 48
+
+block bruiser demon from teleporting!
+
+
+Add TITLEPIC
