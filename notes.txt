@@ -78,7 +78,9 @@ TAG			Sector(s)			Thing(s)
 54		island prison block - door and door roof
 55		island prison block - floor	
 56		island prison block - ceiling	
-		
+57		control sector for exit barrier	
+58		closet barriers
+59		island prison block - instadrop floor	
 60			
 61		raise final exit block
 62		raise exit from ring back to island
@@ -109,6 +111,8 @@ TAG			Sector(s)			Thing(s)
 
 LINE IDs:
 ---------
+
+1		exit wallbright
 
 10		horizon for top blood lake secret									NOT USED
 
@@ -149,6 +153,42 @@ TODO:
  
  RECOVERY:
  ---------
+ OK
  
+ rework exit logic to be:
  
+ - caverns switch opens the iron corridor, NOT the exit dropper.
+ - spawn monsters in iron corridor ONCE ENTERING IT
+ - have exit lowering switch visible at end. 
+ - THIS switch lowers the exit platform
+ - reorganize teleports to be more logical. Possbly add more.
  
+MONSTERS:
+---------
+TODO:
+closets and trigger lines... 
+inner ring escape steps in lava!!!!
+ 
+EXIT SEQUENCE:
+--------------
+1: 		teleport to outer ring
+2: 		find red key. get fucked by lost souls...
+3: 		enter second ring via W keyed door
+4: 		get blue key from under broken lava floor
+5: 		enter mine, ring 3, via blue keyed door, S.
+6: 		fight through ring 3 upper/lower walkways, 
+7: 		enter barons lair in centre
+8: 		switch will open Iron Corridor on island
+8.1:	do I add a teleport here that becomes availabe as well?
+9:		return to island
+9.1: 	need to trigger monstere closet to spawn into ring 1 (? maybe...) and island.
+10:		activate switch in iron corridor to lower exit platform
+10.1:	return to outer ring (maybe open another teleport???)
+11:		hopefully you noticed the exit teleport...
+
+TODO!:
+fix exit 3D floor (look at backup)
+ - this seems to be an actual bug.
+ 57 is actually the CONTROL sector!!!!!
+
+sneaky exit from broken section goes up too far
