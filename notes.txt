@@ -200,4 +200,11 @@ block bruiser demon from teleporting!
 
 bruiser teleport to exit plat as well!
 
-Add TITLEPIC
+
+TODO:
+-----
+ - Add TITLEPIC																					OK
+ - better secret in lava falls tunnel, and make sure sectre works!								OK
+ - something in the tunnels by the blue key?													OK
+ - jump-onto secret in start of marble room - medkit needs to be inaccessible fropm below!		OK
+ - more ammo for final battle!!!. Everything else seems good...									OK
