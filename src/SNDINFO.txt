@@ -1,3 +1,7 @@
+; MAP MUSIC:
+BBLUES		BBLUES.mid
+
+
 glass/break   DSGLASS
 $limit    glass/break 0
 $pitchshift    glass/break 3

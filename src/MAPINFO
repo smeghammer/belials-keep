@@ -9,6 +9,6 @@ map MAP15 "Belial's Keep"
 	levelnum=15
 	next="MAP16"
 	sky1 = "OSKY11"
-	music = "D_IN_CIT"
+	music = "BBLUES"
 	NoJump
 }
