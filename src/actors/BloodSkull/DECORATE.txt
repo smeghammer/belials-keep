@@ -19,24 +19,24 @@ Obituary "%o got spitted by a blood skull."
 States
 {
 Spawn:
-	SWBS AA 4 A_Look
-	TNT1 A 0 A_SpawnItemEx("SkullBloodDrip",random(-2,2),random(-2,2),0,0,0,0,0,0)
+	SWBS AA 4 Bright A_Look
+	TNT1 A 0 Bright A_SpawnItemEx("SkullBloodDrip",random(-2,2),random(-2,2),0,0,0,0,0,0)
 	Loop
 See:
-	SWBS AA 4 A_Chase
-	TNT1 A 0 A_SpawnItemEx("SkullBloodDrip",random(0,4),random(-2,2),0,0,0,0,0,0)
+	SWBS AA 4 Bright A_Chase
+	TNT1 A 0 Bright A_SpawnItemEx("SkullBloodDrip",random(0,4),random(-2,2),0,0,0,0,0,0)
 	Loop
 Missile:
-	SWBS A 2 A_FaceTarget
-	SWBS B 2 A_CustomMissile("BloodSpit",12,0,0,0,0)
-	SWBS BA 2
-	TNT1 A 0 A_SpawnItemEx("SkullBloodDrip",random(-2,2),random(-2,2),0,0,0,0,0,0)
+	SWBS A 2 Bright A_FaceTarget
+	SWBS B 2 Bright A_CustomMissile("BloodSpit",12,0,0,0,0)
+	SWBS BA 2 Bright 
+	TNT1 A 0 Bright A_SpawnItemEx("SkullBloodDrip",random(-2,2),random(-2,2),0,0,0,0,0,0)
 	Goto See
 Pain:
-	SWBS A 2 A_Pain
+	SWBS A 2 Bright A_Pain
 	Goto See
 Death:
-	SWBS C 6 A_NoBlocking
+	SWBS C 6 Bright A_NoBlocking
 	SWBS D 5 Bright A_Scream
 	TNT1 A 0 A_SetTranslucent(0.8,0)
 	SWBS EFGH 5 Bright
@@ -58,10 +58,10 @@ ReactionTime 10
 States
 {
 Spawn:
-	BDR2 A 5 A_CountDown
+	BDR2 A 5 Bright A_CountDown
 	Loop
 Death:
-	TNT1 A 1
+	TNT1 A 1 Bright
 	Stop
 }
 }
@@ -80,11 +80,11 @@ Decal BloodSplat
 States
 {
 Spawn:
-	BSHT AB 2 A_CustomMissile("BloodSpitTrail",0,0,180)
+	BSHT AB 2 Bright A_CustomMissile("BloodSpitTrail",0,0,180)
 	Loop
 Death:
-	BSHT C 6 
-	BSHT D 6 
+	BSHT C 6  Bright
+	BSHT D 6 Bright 
 	Stop
 }
 }
@@ -102,7 +102,7 @@ Scale 0.3
 states
 {
 Spawn:
-	BSHT CD 4 
+	BSHT CD 4 Bright 
 	Stop
 }
 }
